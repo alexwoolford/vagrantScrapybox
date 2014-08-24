@@ -26,3 +26,4 @@
     - name: get vyprvpn certificate
       get_url: url=http://www.giganews.com/vyprvpn/ca.vyprvpn.com.crt dest=/etc/openvpn/ca.vyprvpn.com.crt
     
+    - service: name=openvpn state=started
