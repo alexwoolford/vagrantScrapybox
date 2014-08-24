@@ -9,4 +9,4 @@ It's convenient to use VM's for one-off data acquisition tasks. A vanilla Ubuntu
 
 This assumes that vagrant (with the hashicorp/precise64 box) and Ansible are setup on the host machine.
 
-The configuration also sets up and starts VyprVPN. The username and password for the VyprVPN account are in the vyprvpn.pas file. If you're going to use a VyprVPN, edit this file with your own credentials before you vagrant up.
+The configuration also sets up and starts VyprVPN. The username and password for the account are in the vyprvpn.pas file. If you're going to use VyprVPN, edit this file with your own credentials before you vagrant up.
