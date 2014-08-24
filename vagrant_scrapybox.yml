@@ -20,3 +20,5 @@
       with_items:
         - scrapy
 
+    - copy: src=client.conf dest=/etc/openvpn/client.conf owner=root group=root mode=644 backup=yes
+    - copy: src=vyprvpn.pas dest=/etc/openvpn/vyprvpn.pas owner=root group=root mode=644 backup=yes
