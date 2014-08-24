@@ -1,2 +1,2 @@
 vyprVpnEmail@somedomain.com
-myGoldenFromPassword123
+myGoldenFrogPassword123
