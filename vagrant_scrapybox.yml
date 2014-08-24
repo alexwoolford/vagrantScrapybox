@@ -12,6 +12,7 @@
         - python-pip
         - python-dev
         - libffi-dev
+        - vim
 
     - name: Install pip packages
       pip: name={{item}} state=present
