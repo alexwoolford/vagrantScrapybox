@@ -15,4 +15,3 @@ You can confirm that the external IP of the VM is different by executing the fol
 
     curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
 
-They should return different IP addresses.
