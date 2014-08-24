@@ -1,0 +1,20 @@
+---
+# vagrant_scrapybox.yml
+- hosts: all
+  user: vagrant
+  sudo: True
+
+  tasks:
+    - name: install packages necessary for scrapy
+      action: apt update_cache=yes pkg={{item}} state=installed
+      with_items:
+        - python-lxml
+        - python-pip
+        - python-dev
+        - libffi-dev
+
+    - name: Install pip packages
+      pip: name={{item}} state=present
+      with_items:
+        - scrapy
+
